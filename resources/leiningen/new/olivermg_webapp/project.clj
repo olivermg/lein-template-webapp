@@ -1,4 +1,4 @@
-(defproject clj-factum-service "0.1.0-SNAPSHOT"
+(defproject {{name}} "{{version}}"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -13,12 +13,12 @@
   :plugins [[lein-environ "1.1.0"]]
 
   :source-paths ["src/clj"]
-  ;;;:java-source-paths ["src/java"]
+  :java-source-paths ["src/java"]
   :test-paths ["test/clj"]
 
   :target-path "target/%s"
 
-  :main ^:skip-aot ow.factum.service.core
+  :main ^:skip-aot {{name}}.core
 
   :profiles {:uberjar {:aot :all}}
 

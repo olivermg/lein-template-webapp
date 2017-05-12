@@ -1,4 +1,4 @@
-(ns ow.factum.service.config
+(ns {{name}}.config
   (:require [environ.core :refer [env]]))
 
 (defn get-config []

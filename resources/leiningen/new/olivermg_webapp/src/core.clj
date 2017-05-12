@@ -1,6 +1,6 @@
-(ns ow.factum.service.core
+(ns {{name}}.core
   (:require [com.stuartsierra.component :as c]
-            [ow.factum.service.config :refer [config]]
+            [{{name}}.config :refer [config]]
             [ow.chatterbox.core :refer [webapp]])
   (:gen-class))
 
